@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parking__c</fullName>
+    <externalId>false</externalId>
+    <label>Parking</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Garage Space</fullName>
+                <default>false</default>
+                <label>1 Garage Space</label>
+            </value>
+            <value>
+                <fullName>2 Garage Space</fullName>
+                <default>false</default>
+                <label>2 Garage Space</label>
+            </value>
+            <value>
+                <fullName>3 Garage Space</fullName>
+                <default>false</default>
+                <label>3 Garage Space</label>
+            </value>
+            <value>
+                <fullName>4 Garage Space</fullName>
+                <default>false</default>
+                <label>4 Garage Space</label>
+            </value>
+            <value>
+                <fullName>5 Garage Space</fullName>
+                <default>false</default>
+                <label>5 Garage Space</label>
+            </value>
+            <value>
+                <fullName>5+ Garage Space</fullName>
+                <default>false</default>
+                <label>5+ Garage Space</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

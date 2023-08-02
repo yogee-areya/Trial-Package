@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Contractor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Gives the General Contractor&apos;s name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup to Account</inlineHelpText>
+    <label>General Contractor</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>General Contractor</value>
+        </filterItems>
+        <filterItems>
+            <field>Account.Is_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <infoMessage>Select a General Contractor</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipName>HHM_Inspection</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

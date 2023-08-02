@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escrow_Wiring_Complete__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if the Escrow wiring is complete</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Once the wiring is complete, the Treasury team will check this checkbox and this would send out an email notification to the Transaction Coordinator notifying that the escrow wiring is complete.</inlineHelpText>
+    <label>EMD Payment Complete</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

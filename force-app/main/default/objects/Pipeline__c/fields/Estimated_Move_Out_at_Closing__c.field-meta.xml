@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Move_Out_at_Closing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Field Entered by the Transaction Coordinator</inlineHelpText>
+    <label>Estimated Move Out at Closing</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_UW_Rehab_Amount__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND( Pipeline_ID__r.Due_Diligence_Period_Waived__c = true, Is_New_Construction__c = false ), Prospect_ID__r.Initial_Rehab_Estimate__c, IF( Bid_Recommendation_Contingency__c&gt; 40000, 40000, Bid_Recommendation_Contingency__c) )</formula>
+    <label>Final UW Rehab Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

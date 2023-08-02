@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operating_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Operating Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New REO</fullName>
+                <default>false</default>
+                <label>New REO</label>
+            </value>
+            <value>
+                <fullName>Pending Foreclosure Eviction</fullName>
+                <default>false</default>
+                <label>Pending Foreclosure Eviction</label>
+            </value>
+            <value>
+                <fullName>Pre-Renovation</fullName>
+                <default>false</default>
+                <label>Pre-Renovation</label>
+            </value>
+            <value>
+                <fullName>Renovation Started</fullName>
+                <default>false</default>
+                <label>Renovation Started</label>
+            </value>
+            <value>
+                <fullName>Reno Complete (Pending List)</fullName>
+                <default>false</default>
+                <label>Reno Complete (Pending List)</label>
+            </value>
+            <value>
+                <fullName>Valuation</fullName>
+                <default>false</default>
+                <label>Valuation</label>
+            </value>
+            <value>
+                <fullName>Sale Pre-listed</fullName>
+                <default>false</default>
+                <label>Sale Pre-listed</label>
+            </value>
+            <value>
+                <fullName>Listed for Sale</fullName>
+                <default>false</default>
+                <label>Listed for Sale</label>
+            </value>
+            <value>
+                <fullName>Under Contract</fullName>
+                <default>false</default>
+                <label>Under Contract</label>
+            </value>
+            <value>
+                <fullName>Sold</fullName>
+                <default>false</default>
+                <label>Sold</label>
+            </value>
+            <value>
+                <fullName>Listed for Rent</fullName>
+                <default>false</default>
+                <label>Listed for Rent</label>
+            </value>
+            <value>
+                <fullName>Holding Fee Rcvd</fullName>
+                <default>false</default>
+                <label>Holding Fee Rcvd</label>
+            </value>
+            <value>
+                <fullName>Turnover</fullName>
+                <default>false</default>
+                <label>Turnover</label>
+            </value>
+            <value>
+                <fullName>Leased</fullName>
+                <default>false</default>
+                <label>Leased</label>
+            </value>
+            <value>
+                <fullName>Flow Transfer to RCM</fullName>
+                <default>false</default>
+                <label>Flow Transfer to RCM</label>
+            </value>
+            <value>
+                <fullName>Transfer to RCM</fullName>
+                <default>false</default>
+                <label>Transfer to RCM</label>
+            </value>
+            <value>
+                <fullName>Transfer from RCM to HHM</fullName>
+                <default>false</default>
+                <label>Transfer from RCM to HHM</label>
+            </value>
+            <value>
+                <fullName>Transfer to MPH</fullName>
+                <default>false</default>
+                <label>Transfer to MPH</label>
+            </value>
+            <value>
+                <fullName>Transfer from MPH to HHM</fullName>
+                <default>false</default>
+                <label>Transfer from MPH to HHM</label>
+            </value>
+            <value>
+                <fullName>Transfer back to CHL</fullName>
+                <default>false</default>
+                <label>Transfer back to CHL</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>Re-characterized</fullName>
+                <default>false</default>
+                <label>Re-characterized</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Unauthorized Occupant</fullName>
+                <default>false</default>
+                <label>Unauthorized Occupant</label>
+            </value>
+            <value>
+                <fullName>Trustee Occupant</fullName>
+                <default>false</default>
+                <label>Trustee Occupant</label>
+            </value>
+            <value>
+                <fullName>Trustee Leased</fullName>
+                <default>false</default>
+                <label>Trustee Leased</label>
+            </value>
+            <value>
+                <fullName>Transfer Inspection</fullName>
+                <default>false</default>
+                <label>Transfer Inspection</label>
+            </value>
+            <value>
+                <fullName>Transfer Repairs</fullName>
+                <default>false</default>
+                <label>Transfer Repairs</label>
+            </value>
+            <value>
+                <fullName>Post Renovation Transfer Inspection</fullName>
+                <default>false</default>
+                <label>Post Renovation Transfer Inspection</label>
+            </value>
+            <value>
+                <fullName>Post Renovation Transfer Repair</fullName>
+                <default>false</default>
+                <label>Post Renovation Transfer Repair</label>
+            </value>
+            <value>
+                <fullName>Insurance Claims</fullName>
+                <default>false</default>
+                <label>Insurance Claims</label>
+            </value>
+            <value>
+                <fullName>RCM Rental</fullName>
+                <default>false</default>
+                <label>RCM Rental</label>
+            </value>
+            <value>
+                <fullName>Individualized</fullName>
+                <default>false</default>
+                <label>Individualized</label>
+            </value>
+            <value>
+                <fullName>Acquisition</fullName>
+                <default>false</default>
+                <label>Acquisition</label>
+            </value>
+            <value>
+                <fullName>Marketing Issue - Minor</fullName>
+                <default>false</default>
+                <label>Marketing Issue - Minor</label>
+            </value>
+            <value>
+                <fullName>Marketing Issue - Major</fullName>
+                <default>false</default>
+                <label>Marketing Issue - Major</label>
+            </value>
+            <value>
+                <fullName>Listed for Rent - PHOTOS</fullName>
+                <default>false</default>
+                <label>Listed for Rent - PHOTOS</label>
+            </value>
+            <value>
+                <fullName>Pending Rental Registration</fullName>
+                <default>false</default>
+                <label>Pending Rental Registration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

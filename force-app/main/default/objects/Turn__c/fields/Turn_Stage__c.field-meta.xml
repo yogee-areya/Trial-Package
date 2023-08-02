@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Turn_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Turn Stage</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ordered</fullName>
+                <default>true</default>
+                <label>Ordered</label>
+            </value>
+            <value>
+                <fullName>Turn GC Assigned</fullName>
+                <default>false</default>
+                <label>Turn GC Assigned</label>
+            </value>
+            <value>
+                <fullName>Turn Reviewer Assigned</fullName>
+                <default>false</default>
+                <label>Turn Reviewer Assigned</label>
+            </value>
+            <value>
+                <fullName>Turn Bid Complete</fullName>
+                <default>false</default>
+                <label>Turn Bid Complete</label>
+            </value>
+            <value>
+                <fullName>Turn Bid Approved</fullName>
+                <default>false</default>
+                <label>Turn Bid Approved</label>
+            </value>
+            <value>
+                <fullName>Turn WAF Created</fullName>
+                <default>false</default>
+                <label>Turn WAF Created</label>
+            </value>
+            <value>
+                <fullName>Turn In Progress</fullName>
+                <default>false</default>
+                <label>Turn In Progress</label>
+            </value>
+            <value>
+                <fullName>Turn Complete</fullName>
+                <default>false</default>
+                <label>Turn Complete</label>
+            </value>
+            <value>
+                <fullName>Pending Cancel</fullName>
+                <default>false</default>
+                <label>Pending Cancel</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Marketing Team Notified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Marketing Team Notified</label>
+            </value>
+            <value>
+                <fullName>Pending Move Out</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending Move Out</label>
+            </value>
+            <value>
+                <fullName>QA Check In-Progress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>QA Check In-Progress</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

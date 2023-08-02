@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_CO_2_and_CO3</fullName>
+    <active>false</active>
+    <description>Users should not create a CO 3 form before they have created a CO 2 form</description>
+    <errorConditionFormula>AND(Create_CO_3_Form__c = true,Create_CO_2_Form__c = false)</errorConditionFormula>
+    <errorMessage>Please make sure Change Order form 2 is created before you create a Change Order form 3. Please do this by clicking the &quot;Create Change Order 2&quot; button to move forward.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EMD_Refund_Received_Date__c</fullName>
+    <description>Date on which the EMD Refund Amount was received.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Input field for the EMD Refund Received Date.</inlineHelpText>
+    <label>EMD Refund Received Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

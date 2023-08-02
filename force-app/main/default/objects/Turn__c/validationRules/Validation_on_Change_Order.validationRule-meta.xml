@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Change_Order</fullName>
+    <active>false</active>
+    <description>Users should not be able to click on &quot;Change Order Form 2&quot;/ &quot;Change Order Form 3&quot; button unless Change Order Form 1 is created</description>
+    <errorConditionFormula>And(OR(Create_CO_2_Form__c = true,Create_CO_3_Form__c = True), Create_Work_Authorization_Form__c = False)</errorConditionFormula>
+    <errorMessage>Please make sure that Change Order Form 1 is created before you create a CO2/ CO3 Form. Please do this by clicking the &quot;Create Turn Work Authorization&quot; button</errorMessage>
+</ValidationRule>

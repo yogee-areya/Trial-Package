@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquisition_Source__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Text(Property_ID__r.Property_Acq_Source__c) = &quot;REO&quot;, &quot;REO&quot;,
+IF(Text(Property_ID__r.Property_Acq_Source__c) = &quot;SFR&quot;,&quot;SFR&quot;,
+			IF(Text(Property_ID__r.Property_Acq_Source__c) = &quot;RTM - Tiber&quot;,&quot;RTM - Tiber&quot;,
+IF(Text(Property_ID__r.Property_Acq_Source__c) = Null, &quot;SFR&quot;,NULL))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Acquisition Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

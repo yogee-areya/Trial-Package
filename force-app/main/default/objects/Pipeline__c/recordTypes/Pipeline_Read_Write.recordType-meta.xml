@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pipeline_Read_Write</fullName>
+    <active>true</active>
+    <description>Pipeline Record Type with Read/Write access</description>
+    <label>Pipeline - Read/Write</label>
+    <picklistValues>
+        <picklist>Cancel_Reason__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovation Budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Restricted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller Cancel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deposit_Refund_Payment_Type__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certified Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire w%2FEMD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EMD_Payment_Type__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certified Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire w%2FEMD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frequency_of_the_Assessment__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Occupancy_Status_Acquisition__c</picklist>
+        <values>
+            <fullName>Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenant Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vacant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Occupancy_Status_Diligence__c</picklist>
+        <values>
+            <fullName>Owner Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenant Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vacant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Option_Fee_Payment_Type__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certified Funds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire w%2FEMD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pipeline_Stage__c</picklist>
+        <values>
+            <fullName>Closing Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Reviewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documents Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence%2FBudget Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMD Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Property Created</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Security_Deposit_Released__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Title_Policy_Paid_By__c</picklist>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

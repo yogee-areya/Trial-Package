@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_HOA_UW_From_Frequency__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(HOA_Frequency__c, &quot;Annually&quot;),ISPICKVAL(HOA_Frequency__c, &quot;&quot;)),IF(ISBLANK(Actual_Monthly_HOA_UW__c),(Monthly_HOA_UW__c/12),(Actual_Monthly_HOA_UW__c/12)),
+IF(ISPICKVAL(HOA_Frequency__c,&quot;Semi-Annually&quot;),IF(ISBLANK(Actual_Monthly_HOA_UW__c),(Monthly_HOA_UW__c/2),(Actual_Monthly_HOA_UW__c/2)),
+IF(ISPICKVAL(HOA_Frequency__c, &quot;Quarterly&quot;),IF(ISBLANK(Actual_Monthly_HOA_UW__c),(Monthly_HOA_UW__c/4),(Actual_Monthly_HOA_UW__c/4)),IF(ISBLANK(Actual_Monthly_HOA_UW__c),Monthly_HOA_UW__c,Actual_Monthly_HOA_UW__c))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Monthly HOA @ UW From Frequency</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Actual_Turn_Complete_Date</fullName>
+    <active>false</active>
+    <description>Actual turn complete date should not be entered unless the stage is in &quot;Turn in Progress&quot;</description>
+    <errorConditionFormula>AND( Not(ISPICKVAL(Turn_Stage__c, &quot;Turn in Progress&quot;)), ISCHANGED(Actual_Turn_Complete_Date__c))</errorConditionFormula>
+    <errorDisplayField>Actual_Turn_Complete_Date__c</errorDisplayField>
+    <errorMessage>Please make sure you enter the Actual Turn Complete Date only once the Work Authorization Form is created</errorMessage>
+</ValidationRule>

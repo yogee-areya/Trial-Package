@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avg_Inspection_time_in_days__c</fullName>
+    <externalId>false</externalId>
+    <formula>Inspection_Period_End_Date__c  -  Inspection_Scheduled_Date__c</formula>
+    <label>Avg Inspection time in days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funds_Due_from_Buyer_Match__c</fullName>
+    <description>Checked if Funds due from Buyer Match</description>
+    <externalId>false</externalId>
+    <formula>IF(  COE_Funds_Amount__c  =   Closing_Statement_Funds_Due_from_Buyer__c , TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Funds Due from Buyer Match</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Propsect_Analyst_ReadOnly_Broker</fullName>
+    <active>true</active>
+    <label>Propsect - Analyst ReadOnly(Broker)</label>
+    <picklistValues>
+        <picklist>Acq_Source__c</picklist>
+        <values>
+            <fullName>AD2 Capital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AcquireSFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Hammons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big State Home Buyers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bold Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Century Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DR Horton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guardian Bridge Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HomeProp%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HouseCanary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KM Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGI Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lantern Real Estate Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lennar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberty Housing Solutions LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%2FI Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meritage Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NetWorth Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Western</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offerpad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opendoor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privette Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Copper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Mercury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulte Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ResiShares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ribbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockethouzz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rockhaven Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofstock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26S</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starlight Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sundae Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zillow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Acq_Type__c</picklist>
+        <values>
+            <fullName>Broker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulk Acquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portfolio Bulk Acquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cancellation_Reason__c</picklist>
+        <values>
+            <fullName>Contract Terms And Restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Rehab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hazardous Conditions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listing Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listing Sold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Term Lease In Place</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Rent Avm Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Sale Avm Confidence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not In Buy Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity User Removed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre Offer Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property On Septic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller Leaseback Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller Type</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sinkhole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar Lease Must Be Assumed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subject To Firpta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Type</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Construction_Type__c</picklist>
+        <values>
+            <fullName>Block</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flood_Zone__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undetermined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HOA_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HVAC_Type__c</picklist>
+        <values>
+            <fullName>Value1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Type__c</picklist>
+        <values>
+            <fullName>Bold Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Doc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HouseCanary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salesforce %28Resale%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Leasing_Restrictions_Allowed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Occupancy_Status_Acquisition__c</picklist>
+        <values>
+            <fullName>Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenant Occupied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vacant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parking__c</picklist>
+        <values>
+            <fullName>1 Garage Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 Garage Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Garage Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Garage Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Garage Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2B Garage Space</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Type__c</picklist>
+        <values>
+            <fullName>Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attached Single Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detached Single Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half Duplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufactured</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quadruplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Family</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Townhouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triplex</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prospect_Stage__c</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Counter Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moved to Pipeline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer Made</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Contract Authorization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Estimates Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Underwriting Estimates Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Prospect_Status__c</picklist>
+        <values>
+            <fullName>Claimed</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Type__c</picklist>
+        <values>
+            <fullName>Asphalt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Built-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gravel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot Mopped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shingle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wood</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sale_Type__c</picklist>
+        <values>
+            <fullName>Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Bid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mls Listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iBuyer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SewerSeptic__c</picklist>
+        <values>
+            <fullName>Septic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sewer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sewer_Septic__c</picklist>
+        <values>
+            <fullName>Septic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sewer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Swimming_Pool__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

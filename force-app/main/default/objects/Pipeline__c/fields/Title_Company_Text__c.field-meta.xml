@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_Company_Text__c</fullName>
+    <description>Gives the Title company name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The transaction coordinator can input the text if the title company is not populated</inlineHelpText>
+    <label>Title Company Text</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

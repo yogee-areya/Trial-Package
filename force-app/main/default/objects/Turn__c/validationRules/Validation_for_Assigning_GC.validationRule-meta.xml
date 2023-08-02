@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Assigning_GC</fullName>
+    <active>false</active>
+    <description>Before assigning the GC, users should not be able to create Reviewer, WA, CO1,2,3 forms</description>
+    <errorConditionFormula>AND(OR( Create_Reviewer_Form__c = TRUE, Create_Work_Authorization_Form__c = TRUE, Create_CO_2_Form__c = TRUE,Create_CO_3_Form__c = True, Punch_List_Checked__c = True), doCreateVF__c = FALSE)</errorConditionFormula>
+    <errorMessage>Please assign a GC first by clicking on the &quot;Assign GC&quot; button.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Coordinator_Name__c</fullName>
+    <description>Transaction coordinator name, not on the page layout. Created for Yardi dump</description>
+    <externalId>false</externalId>
+    <formula>Transaction_Coordinator__r.FirstName+&quot; &quot;+Transaction_Coordinator__r.LastName</formula>
+    <label>Transaction Coordinator Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

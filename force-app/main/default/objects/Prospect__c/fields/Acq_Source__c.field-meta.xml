@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acq_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Acq Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Entera</fullName>
+                <default>false</default>
+                <label>Entera</label>
+            </value>
+            <value>
+                <fullName>Roofstock</fullName>
+                <default>false</default>
+                <label>Roofstock</label>
+            </value>
+            <value>
+                <fullName>Offerpad</fullName>
+                <default>false</default>
+                <label>Offerpad</label>
+            </value>
+            <value>
+                <fullName>Starlight Homes</fullName>
+                <default>false</default>
+                <label>Starlight Homes</label>
+            </value>
+            <value>
+                <fullName>Zillow</fullName>
+                <default>false</default>
+                <label>Zillow</label>
+            </value>
+            <value>
+                <fullName>LGI Homes</fullName>
+                <default>false</default>
+                <label>LGI Homes</label>
+            </value>
+            <value>
+                <fullName>S&amp;S</fullName>
+                <default>false</default>
+                <label>S&amp;S</label>
+            </value>
+            <value>
+                <fullName>Ribbon</fullName>
+                <default>false</default>
+                <label>Ribbon</label>
+            </value>
+            <value>
+                <fullName>Big State Home Buyers</fullName>
+                <default>false</default>
+                <label>Big State Home Buyers</label>
+            </value>
+            <value>
+                <fullName>AD2 Capital</fullName>
+                <default>false</default>
+                <label>AD2 Capital</label>
+            </value>
+            <value>
+                <fullName>HomeProp, LLC</fullName>
+                <default>false</default>
+                <label>HomeProp, LLC</label>
+            </value>
+            <value>
+                <fullName>Lantern Real Estate Group</fullName>
+                <default>false</default>
+                <label>Lantern Real Estate Group</label>
+            </value>
+            <value>
+                <fullName>KM Homes</fullName>
+                <default>false</default>
+                <label>KM Homes</label>
+            </value>
+            <value>
+                <fullName>NetWorth Realty</fullName>
+                <default>false</default>
+                <label>NetWorth Realty</label>
+            </value>
+            <value>
+                <fullName>Guardian Bridge Group</fullName>
+                <default>false</default>
+                <label>Guardian Bridge Group</label>
+            </value>
+            <value>
+                <fullName>Project Copper</fullName>
+                <default>false</default>
+                <label>Project Copper</label>
+            </value>
+            <value>
+                <fullName>Century Complete</fullName>
+                <default>false</default>
+                <label>Century Complete</label>
+            </value>
+            <value>
+                <fullName>Opendoor</fullName>
+                <default>false</default>
+                <label>Opendoor</label>
+            </value>
+            <value>
+                <fullName>Lennar</fullName>
+                <default>false</default>
+                <label>Lennar</label>
+            </value>
+            <value>
+                <fullName>M/I Homes</fullName>
+                <default>false</default>
+                <label>M/I Homes</label>
+            </value>
+            <value>
+                <fullName>Meritage Homes</fullName>
+                <default>false</default>
+                <label>Meritage Homes</label>
+            </value>
+            <value>
+                <fullName>Rockhaven Homes</fullName>
+                <default>false</default>
+                <label>Rockhaven Homes</label>
+            </value>
+            <value>
+                <fullName>Project Mercury</fullName>
+                <default>false</default>
+                <label>Project Mercury</label>
+            </value>
+            <value>
+                <fullName>DR Horton</fullName>
+                <default>false</default>
+                <label>DR Horton</label>
+            </value>
+            <value>
+                <fullName>Sundae Homes</fullName>
+                <default>false</default>
+                <label>Sundae Homes</label>
+            </value>
+            <value>
+                <fullName>L Audace</fullName>
+                <default>false</default>
+                <label>L Audace</label>
+            </value>
+            <value>
+                <fullName>Project Razor</fullName>
+                <default>false</default>
+                <label>Project Razor</label>
+            </value>
+            <value>
+                <fullName>Al Hammons</fullName>
+                <default>false</default>
+                <label>Al Hammons</label>
+            </value>
+            <value>
+                <fullName>Privette Properties</fullName>
+                <default>false</default>
+                <label>Privette Properties</label>
+            </value>
+            <value>
+                <fullName>Pulte Group</fullName>
+                <default>false</default>
+                <label>Pulte Group</label>
+            </value>
+            <value>
+                <fullName>ResiShares</fullName>
+                <default>false</default>
+                <label>ResiShares</label>
+            </value>
+            <value>
+                <fullName>Rockethouzz</fullName>
+                <default>false</default>
+                <label>Rockethouzz</label>
+            </value>
+            <value>
+                <fullName>AcquireSFR</fullName>
+                <default>false</default>
+                <label>AcquireSFR</label>
+            </value>
+            <value>
+                <fullName>Liberty Housing Solutions LLC</fullName>
+                <default>false</default>
+                <label>Liberty Housing Solutions LLC</label>
+            </value>
+            <value>
+                <fullName>New Western</fullName>
+                <default>false</default>
+                <label>New Western</label>
+            </value>
+            <value>
+                <fullName>HouseCanary</fullName>
+                <default>false</default>
+                <label>HouseCanary</label>
+            </value>
+            <value>
+                <fullName>Bold Street</fullName>
+                <default>false</default>
+                <label>Bold Street</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

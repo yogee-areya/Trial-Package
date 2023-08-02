@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inspection_Stage__c</fullName>
+    <description>Gives the Inspection stage</description>
+    <externalId>false</externalId>
+    <label>Inspection Stage</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ordered</fullName>
+                <default>true</default>
+                <label>Ordered</label>
+            </value>
+            <value>
+                <fullName>GC Assigned</fullName>
+                <default>false</default>
+                <label>GC Assigned</label>
+            </value>
+            <value>
+                <fullName>Bid Reviewer Assigned</fullName>
+                <default>false</default>
+                <label>Bid Reviewer Assigned</label>
+            </value>
+            <value>
+                <fullName>Inspection Complete</fullName>
+                <default>false</default>
+                <label>Inspection Complete</label>
+            </value>
+            <value>
+                <fullName>Inspection Approved</fullName>
+                <default>false</default>
+                <label>Inspection Approved</label>
+            </value>
+            <value>
+                <fullName>Work Authorization Form Created</fullName>
+                <default>false</default>
+                <label>Work Authorization Form Created</label>
+            </value>
+            <value>
+                <fullName>Pending Cancel</fullName>
+                <default>false</default>
+                <label>Pending Cancel</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Property Created</fullName>
+                <default>false</default>
+                <label>Property Created</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

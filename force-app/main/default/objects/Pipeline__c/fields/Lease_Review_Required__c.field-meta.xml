@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Review_Required__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checked if Lease review required</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Required only if the Occupany Status is Tenant Occupied</inlineHelpText>
+    <label>Lease Review Required</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

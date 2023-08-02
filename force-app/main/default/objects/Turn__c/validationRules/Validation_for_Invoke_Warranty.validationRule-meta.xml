@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Invoke_Warranty</fullName>
+    <active>false</active>
+    <description>User should not be able to Invoke Warranty before the Work Authorization form is created</description>
+    <errorConditionFormula>AND(OR(doCreateVF__c = false, Create_Reviewer_Form__c = False, Create_Work_Authorization_Form__c = false),Punch_List_Checked__c = true)</errorConditionFormula>
+    <errorMessage>Please make sure a Work Authorization and Change Order Form 1 is created before you invoke warranty. Please do  this by clicking the &quot;Create Turn Work Authorization&quot; button.</errorMessage>
+</ValidationRule>

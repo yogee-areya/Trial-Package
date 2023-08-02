@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speciality_Vendor</fullName>
+    <active>true</active>
+    <description>This Record Type is selected for contractors who perform specific task/repairs</description>
+    <label>Speciality Vendor</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CustomerPriority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GC_Market__c</picklist>
+        <values>
+            <fullName>Alabama - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albany Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albany Suburbs Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albuquerque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlanta Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austin Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baltimore Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baltimore Suburbs Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Binghamton Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Binghamton Suburbs PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Birmingham Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boston Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridgeport Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridgeport Suburbs Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buffalo Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Jersey Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charlotte Suburbs South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chicago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chicago Area Suburbs IL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cincinnati Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cincinnati Suburbs Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cincinnati Suburbs Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cleveland Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbia Suburbs Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbia Suburbs South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Columbus Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denver Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detroit Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greensboro Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenville Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenville Suburbs North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houston Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indianapolis Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jacksonville Area FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jacksonville Suburbs Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas City Area KS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas City Suburbs Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Las Vegas Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexington Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Island Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Los Angeles Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisville Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisville Suburbs Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memphis Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miami Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milwaukee Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milwaukee Suburbs Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minneapolis Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minneapolis Suburbs Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Orleans Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norfolk Area VA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norfolk Suburbs North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Jersey Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocala Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma City Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orlando Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pensacola Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pensacola Suburbs Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philadelphia Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phoenix Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pittsburgh Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portland Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portland Suburbs Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Providence Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puerto Rico - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raleigh Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richmond Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE Chicago Suburbs Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sacramento Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Antonio Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Francisco Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scranton Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Jersey Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St Louis Area MO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St Louis Suburbs Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syracuse Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tacoma Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tampa Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toledo Area OH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toledo Suburbs Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toledo Suburbs Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tulsa Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vemont - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington DC Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington DC Suburbs Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington DC Suburbs Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington State - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White Plains Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wilmington Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wilmington Suburbs Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wilmington Suburbs Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin - Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming - Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    
+</RecordType>

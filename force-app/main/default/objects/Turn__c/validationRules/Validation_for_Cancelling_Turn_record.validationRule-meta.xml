@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_for_Cancelling_Turn_record</fullName>
+    <active>false</active>
+    <description>This is to ensure that only Eric, Clark and System Admin is allowed to cancel the Turn Record</description>
+    <errorConditionFormula>And(Cancelled__c = True,
+$User.Id &lt;&gt; &quot;0054W00000C81oj&quot;,
+$User.Id &lt;&gt; &quot;0054W00000C81pD&quot;,
+$User.Id &lt;&gt;	&quot;0054W00000C81pI&quot;,
+$Profile.Name &lt;&gt; &quot;HHM System Admin&quot;,
+$Profile.Name &lt;&gt; &quot;HHM Entera Integration User&quot;)</errorConditionFormula>
+    <errorMessage>Please contact the System Admin to cancel the record.</errorMessage>
+</ValidationRule>

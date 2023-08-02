@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Authorization_Form_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(doCreateWAF__c = TRUE ,NOT(ISBLANK(Work_Authorization_Date_Signed__c))),&quot;WA Created and Signed&quot;,
+			IF(AND(doCreateWAF__c = FALSE ,NOT(ISBLANK(Work_Authorization_Date_Signed__c))),&quot;WA Signed | WA not generated in SF&quot;,
+							IF(AND(doCreateWAF__c = TRUE ,ISBLANK(Work_Authorization_Date_Signed__c)),&quot;WA Issued and Pending Signature&quot;,&quot;Not Created&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Work Authorization Form Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

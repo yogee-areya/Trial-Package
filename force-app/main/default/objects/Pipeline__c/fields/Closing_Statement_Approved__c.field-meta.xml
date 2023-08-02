@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closing_Statement_Approved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This checkbox is checked by  REO accounting team to notify Heather that its approved to proceed forward to get the Closing docs to the Title Company</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ownership of REO accounting team which when checked to true notifies Heather that its approved to proceed forward to get the Closing docs to the Title Company</inlineHelpText>
+    <label>Closing Statement Approved</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

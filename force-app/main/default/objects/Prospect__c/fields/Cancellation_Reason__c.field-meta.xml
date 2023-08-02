@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancellation_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Cancellation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract Terms And Restrictions</fullName>
+                <default>false</default>
+                <label>Contract Terms And Restrictions</label>
+            </value>
+            <value>
+                <fullName>Duplicate Offer</fullName>
+                <default>false</default>
+                <label>Duplicate Offer</label>
+            </value>
+            <value>
+                <fullName>Excessive Rehab</fullName>
+                <default>false</default>
+                <label>Excessive Rehab</label>
+            </value>
+            <value>
+                <fullName>Hazardous Conditions</fullName>
+                <default>false</default>
+                <label>Hazardous Conditions</label>
+            </value>
+            <value>
+                <fullName>Listing Pending</fullName>
+                <default>false</default>
+                <label>Listing Pending</label>
+            </value>
+            <value>
+                <fullName>Listing Sold</fullName>
+                <default>false</default>
+                <label>Listing Sold</label>
+            </value>
+            <value>
+                <fullName>Long Term Lease In Place</fullName>
+                <default>false</default>
+                <label>Long Term Lease In Place</label>
+            </value>
+            <value>
+                <fullName>Low Rent Avm Confidence</fullName>
+                <default>false</default>
+                <label>Low Rent Avm Confidence</label>
+            </value>
+            <value>
+                <fullName>Low Sale Avm Confidence</fullName>
+                <default>false</default>
+                <label>Low Sale Avm Confidence</label>
+            </value>
+            <value>
+                <fullName>Neighborhood</fullName>
+                <default>false</default>
+                <label>Neighborhood</label>
+            </value>
+            <value>
+                <fullName>Not In Buy Box</fullName>
+                <default>false</default>
+                <label>Not In Buy Box</label>
+            </value>
+            <value>
+                <fullName>Opportunity Lost</fullName>
+                <default>false</default>
+                <label>Opportunity Lost</label>
+            </value>
+            <value>
+                <fullName>Opportunity Rejected</fullName>
+                <default>false</default>
+                <label>Opportunity Rejected</label>
+            </value>
+            <value>
+                <fullName>Opportunity User Removed</fullName>
+                <default>false</default>
+                <label>Opportunity User Removed</label>
+            </value>
+            <value>
+                <fullName>Pre Offer Cancel</fullName>
+                <default>false</default>
+                <label>Pre Offer Cancel</label>
+            </value>
+            <value>
+                <fullName>Property On Septic</fullName>
+                <default>false</default>
+                <label>Property On Septic</label>
+            </value>
+            <value>
+                <fullName>Rent Restrictions</fullName>
+                <default>false</default>
+                <label>Rent Restrictions</label>
+            </value>
+            <value>
+                <fullName>Seller Leaseback Required</fullName>
+                <default>false</default>
+                <label>Seller Leaseback Required</label>
+            </value>
+            <value>
+                <fullName>Seller Type</fullName>
+                <default>false</default>
+                <label>Seller Type</label>
+            </value>
+            <value>
+                <fullName>Sinkhole</fullName>
+                <default>false</default>
+                <label>Sinkhole</label>
+            </value>
+            <value>
+                <fullName>Solar Lease Must Be Assumed</fullName>
+                <default>false</default>
+                <label>Solar Lease Must Be Assumed</label>
+            </value>
+            <value>
+                <fullName>Subject To Firpta</fullName>
+                <default>false</default>
+                <label>Subject To Firpta</label>
+            </value>
+            <value>
+                <fullName>Transaction Type</fullName>
+                <default>false</default>
+                <label>Transaction Type</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

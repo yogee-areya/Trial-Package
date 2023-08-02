@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inspection_Form_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Turn Form Stage</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vendor Form Completed</fullName>
+                <default>false</default>
+                <label>Vendor Form Completed</label>
+            </value>
+            <value>
+                <fullName>Reviewer Form Completed</fullName>
+                <default>false</default>
+                <label>Reviewer Form Completed</label>
+            </value>
+            <value>
+                <fullName>Work Auth Form Completed</fullName>
+                <default>false</default>
+                <label>Work Auth Form Completed</label>
+            </value>
+            <value>
+                <fullName>Reviewer Form Rejected</fullName>
+                <default>false</default>
+                <label>Reviewer Form Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

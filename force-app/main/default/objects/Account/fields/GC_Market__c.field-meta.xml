@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GC_Market__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The market in which the GC is operating</inlineHelpText>
+    <label>GC Market</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alabama - Other</fullName>
+                <default>false</default>
+                <label>Alabama - Other</label>
+            </value>
+            <value>
+                <fullName>Alaska - Other</fullName>
+                <default>false</default>
+                <label>Alaska - Other</label>
+            </value>
+            <value>
+                <fullName>Albany Area</fullName>
+                <default>false</default>
+                <label>Albany Area</label>
+            </value>
+            <value>
+                <fullName>Albany Suburbs Massachusetts</fullName>
+                <default>false</default>
+                <label>Albany Suburbs Massachusetts</label>
+            </value>
+            <value>
+                <fullName>Albuquerque</fullName>
+                <default>false</default>
+                <label>Albuquerque</label>
+            </value>
+            <value>
+                <fullName>Arizona - Other</fullName>
+                <default>false</default>
+                <label>Arizona - Other</label>
+            </value>
+            <value>
+                <fullName>Arkansas - Other</fullName>
+                <default>false</default>
+                <label>Arkansas - Other</label>
+            </value>
+            <value>
+                <fullName>Atlanta Area</fullName>
+                <default>false</default>
+                <label>Atlanta Area</label>
+            </value>
+            <value>
+                <fullName>Austin Area</fullName>
+                <default>false</default>
+                <label>Austin Area</label>
+            </value>
+            <value>
+                <fullName>Baltimore Area</fullName>
+                <default>false</default>
+                <label>Baltimore Area</label>
+            </value>
+            <value>
+                <fullName>Baltimore Suburbs Pennsylvania</fullName>
+                <default>false</default>
+                <label>Baltimore Suburbs Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Binghamton Area</fullName>
+                <default>false</default>
+                <label>Binghamton Area</label>
+            </value>
+            <value>
+                <fullName>Binghamton Suburbs PA</fullName>
+                <default>false</default>
+                <label>Binghamton Suburbs PA</label>
+            </value>
+            <value>
+                <fullName>Birmingham Area</fullName>
+                <default>false</default>
+                <label>Birmingham Area</label>
+            </value>
+            <value>
+                <fullName>Boston Area</fullName>
+                <default>false</default>
+                <label>Boston Area</label>
+            </value>
+            <value>
+                <fullName>Bridgeport Area</fullName>
+                <default>false</default>
+                <label>Bridgeport Area</label>
+            </value>
+            <value>
+                <fullName>Bridgeport Suburbs Massachusetts</fullName>
+                <default>false</default>
+                <label>Bridgeport Suburbs Massachusetts</label>
+            </value>
+            <value>
+                <fullName>Buffalo Area</fullName>
+                <default>false</default>
+                <label>Buffalo Area</label>
+            </value>
+            <value>
+                <fullName>California - Other</fullName>
+                <default>false</default>
+                <label>California - Other</label>
+            </value>
+            <value>
+                <fullName>Central Jersey Area</fullName>
+                <default>false</default>
+                <label>Central Jersey Area</label>
+            </value>
+            <value>
+                <fullName>Charlotte Area</fullName>
+                <default>false</default>
+                <label>Charlotte Area</label>
+            </value>
+            <value>
+                <fullName>Charlotte Suburbs South Carolina</fullName>
+                <default>false</default>
+                <label>Charlotte Suburbs South Carolina</label>
+            </value>
+            <value>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+                <label>Chicago</label>
+            </value>
+            <value>
+                <fullName>Chicago Area Suburbs IL</fullName>
+                <default>false</default>
+                <label>Chicago Area Suburbs IL</label>
+            </value>
+            <value>
+                <fullName>Cincinnati Area</fullName>
+                <default>false</default>
+                <label>Cincinnati Area</label>
+            </value>
+            <value>
+                <fullName>Cincinnati Suburbs Indiana</fullName>
+                <default>false</default>
+                <label>Cincinnati Suburbs Indiana</label>
+            </value>
+            <value>
+                <fullName>Cincinnati Suburbs Kentucky</fullName>
+                <default>false</default>
+                <label>Cincinnati Suburbs Kentucky</label>
+            </value>
+            <value>
+                <fullName>Cleveland Area</fullName>
+                <default>false</default>
+                <label>Cleveland Area</label>
+            </value>
+            <value>
+                <fullName>Colorado - Other</fullName>
+                <default>false</default>
+                <label>Colorado - Other</label>
+            </value>
+            <value>
+                <fullName>Columbia Suburbs Georgia</fullName>
+                <default>false</default>
+                <label>Columbia Suburbs Georgia</label>
+            </value>
+            <value>
+                <fullName>Columbia Suburbs South Carolina</fullName>
+                <default>false</default>
+                <label>Columbia Suburbs South Carolina</label>
+            </value>
+            <value>
+                <fullName>Columbus Area</fullName>
+                <default>false</default>
+                <label>Columbus Area</label>
+            </value>
+            <value>
+                <fullName>Connecticut - Other</fullName>
+                <default>false</default>
+                <label>Connecticut - Other</label>
+            </value>
+            <value>
+                <fullName>Dallas Market</fullName>
+                <default>false</default>
+                <label>Dallas Market</label>
+            </value>
+            <value>
+                <fullName>Delaware - Other</fullName>
+                <default>false</default>
+                <label>Delaware - Other</label>
+            </value>
+            <value>
+                <fullName>Denver Area</fullName>
+                <default>false</default>
+                <label>Denver Area</label>
+            </value>
+            <value>
+                <fullName>Detroit Area</fullName>
+                <default>false</default>
+                <label>Detroit Area</label>
+            </value>
+            <value>
+                <fullName>Florida - Other</fullName>
+                <default>false</default>
+                <label>Florida - Other</label>
+            </value>
+            <value>
+                <fullName>Georgia - Other</fullName>
+                <default>false</default>
+                <label>Georgia - Other</label>
+            </value>
+            <value>
+                <fullName>Greensboro Area</fullName>
+                <default>false</default>
+                <label>Greensboro Area</label>
+            </value>
+            <value>
+                <fullName>Greenville Area</fullName>
+                <default>false</default>
+                <label>Greenville Area</label>
+            </value>
+            <value>
+                <fullName>Greenville Suburbs North Carolina</fullName>
+                <default>false</default>
+                <label>Greenville Suburbs North Carolina</label>
+            </value>
+            <value>
+                <fullName>Hawaii - Other</fullName>
+                <default>false</default>
+                <label>Hawaii - Other</label>
+            </value>
+            <value>
+                <fullName>Houston Market</fullName>
+                <default>false</default>
+                <label>Houston Market</label>
+            </value>
+            <value>
+                <fullName>Idaho - Other</fullName>
+                <default>false</default>
+                <label>Idaho - Other</label>
+            </value>
+            <value>
+                <fullName>Illinois - Other</fullName>
+                <default>false</default>
+                <label>Illinois - Other</label>
+            </value>
+            <value>
+                <fullName>Indiana - Other</fullName>
+                <default>false</default>
+                <label>Indiana - Other</label>
+            </value>
+            <value>
+                <fullName>Indianapolis Area</fullName>
+                <default>false</default>
+                <label>Indianapolis Area</label>
+            </value>
+            <value>
+                <fullName>Iowa - Other</fullName>
+                <default>false</default>
+                <label>Iowa - Other</label>
+            </value>
+            <value>
+                <fullName>Jacksonville Area FL</fullName>
+                <default>false</default>
+                <label>Jacksonville Area FL</label>
+            </value>
+            <value>
+                <fullName>Jacksonville Suburbs Georgia</fullName>
+                <default>false</default>
+                <label>Jacksonville Suburbs Georgia</label>
+            </value>
+            <value>
+                <fullName>Kansas City Area KS</fullName>
+                <default>false</default>
+                <label>Kansas City Area KS</label>
+            </value>
+            <value>
+                <fullName>Kansas City Suburbs Missouri</fullName>
+                <default>false</default>
+                <label>Kansas City Suburbs Missouri</label>
+            </value>
+            <value>
+                <fullName>Kansas - Other</fullName>
+                <default>false</default>
+                <label>Kansas - Other</label>
+            </value>
+            <value>
+                <fullName>Kentucky - Other</fullName>
+                <default>false</default>
+                <label>Kentucky - Other</label>
+            </value>
+            <value>
+                <fullName>Las Vegas Area</fullName>
+                <default>false</default>
+                <label>Las Vegas Area</label>
+            </value>
+            <value>
+                <fullName>Lexington Area</fullName>
+                <default>false</default>
+                <label>Lexington Area</label>
+            </value>
+            <value>
+                <fullName>Long Island Area</fullName>
+                <default>false</default>
+                <label>Long Island Area</label>
+            </value>
+            <value>
+                <fullName>Los Angeles Area</fullName>
+                <default>false</default>
+                <label>Los Angeles Area</label>
+            </value>
+            <value>
+                <fullName>Louisiana - Other</fullName>
+                <default>false</default>
+                <label>Louisiana - Other</label>
+            </value>
+            <value>
+                <fullName>Louisville Area</fullName>
+                <default>false</default>
+                <label>Louisville Area</label>
+            </value>
+            <value>
+                <fullName>Louisville Suburbs Indiana</fullName>
+                <default>false</default>
+                <label>Louisville Suburbs Indiana</label>
+            </value>
+            <value>
+                <fullName>Maine - Other</fullName>
+                <default>false</default>
+                <label>Maine - Other</label>
+            </value>
+            <value>
+                <fullName>Maryland - Other</fullName>
+                <default>false</default>
+                <label>Maryland - Other</label>
+            </value>
+            <value>
+                <fullName>Massachusetts - Other</fullName>
+                <default>false</default>
+                <label>Massachusetts - Other</label>
+            </value>
+            <value>
+                <fullName>Memphis Area</fullName>
+                <default>false</default>
+                <label>Memphis Area</label>
+            </value>
+            <value>
+                <fullName>Miami Area</fullName>
+                <default>false</default>
+                <label>Miami Area</label>
+            </value>
+            <value>
+                <fullName>Michigan - Other</fullName>
+                <default>false</default>
+                <label>Michigan - Other</label>
+            </value>
+            <value>
+                <fullName>Milwaukee Area</fullName>
+                <default>false</default>
+                <label>Milwaukee Area</label>
+            </value>
+            <value>
+                <fullName>Milwaukee Suburbs Illinois</fullName>
+                <default>false</default>
+                <label>Milwaukee Suburbs Illinois</label>
+            </value>
+            <value>
+                <fullName>Minneapolis Area</fullName>
+                <default>false</default>
+                <label>Minneapolis Area</label>
+            </value>
+            <value>
+                <fullName>Minneapolis Suburbs Wisconsin</fullName>
+                <default>false</default>
+                <label>Minneapolis Suburbs Wisconsin</label>
+            </value>
+            <value>
+                <fullName>Minnesota - Other</fullName>
+                <default>false</default>
+                <label>Minnesota - Other</label>
+            </value>
+            <value>
+                <fullName>Mississippi - Other</fullName>
+                <default>false</default>
+                <label>Mississippi - Other</label>
+            </value>
+            <value>
+                <fullName>Missouri - Other</fullName>
+                <default>false</default>
+                <label>Missouri - Other</label>
+            </value>
+            <value>
+                <fullName>Montana - Other</fullName>
+                <default>false</default>
+                <label>Montana - Other</label>
+            </value>
+            <value>
+                <fullName>Nebraska - Other</fullName>
+                <default>false</default>
+                <label>Nebraska - Other</label>
+            </value>
+            <value>
+                <fullName>Nevada - Other</fullName>
+                <default>false</default>
+                <label>Nevada - Other</label>
+            </value>
+            <value>
+                <fullName>New Hampshire - Other</fullName>
+                <default>false</default>
+                <label>New Hampshire - Other</label>
+            </value>
+            <value>
+                <fullName>New Mexico - Other</fullName>
+                <default>false</default>
+                <label>New Mexico - Other</label>
+            </value>
+            <value>
+                <fullName>New Orleans Area</fullName>
+                <default>false</default>
+                <label>New Orleans Area</label>
+            </value>
+            <value>
+                <fullName>New York City</fullName>
+                <default>false</default>
+                <label>New York City</label>
+            </value>
+            <value>
+                <fullName>New York - Other</fullName>
+                <default>false</default>
+                <label>New York - Other</label>
+            </value>
+            <value>
+                <fullName>Norfolk Area VA</fullName>
+                <default>false</default>
+                <label>Norfolk Area VA</label>
+            </value>
+            <value>
+                <fullName>Norfolk Suburbs North Carolina</fullName>
+                <default>false</default>
+                <label>Norfolk Suburbs North Carolina</label>
+            </value>
+            <value>
+                <fullName>North Carolina - Other</fullName>
+                <default>false</default>
+                <label>North Carolina - Other</label>
+            </value>
+            <value>
+                <fullName>North Dakota - Other</fullName>
+                <default>false</default>
+                <label>North Dakota - Other</label>
+            </value>
+            <value>
+                <fullName>North Jersey Area</fullName>
+                <default>false</default>
+                <label>North Jersey Area</label>
+            </value>
+            <value>
+                <fullName>Ocala Area</fullName>
+                <default>false</default>
+                <label>Ocala Area</label>
+            </value>
+            <value>
+                <fullName>Ohio - Other</fullName>
+                <default>false</default>
+                <label>Ohio - Other</label>
+            </value>
+            <value>
+                <fullName>Oklahoma City Area</fullName>
+                <default>false</default>
+                <label>Oklahoma City Area</label>
+            </value>
+            <value>
+                <fullName>Oklahoma - Other</fullName>
+                <default>false</default>
+                <label>Oklahoma - Other</label>
+            </value>
+            <value>
+                <fullName>Oregon - Other</fullName>
+                <default>false</default>
+                <label>Oregon - Other</label>
+            </value>
+            <value>
+                <fullName>Orlando Area</fullName>
+                <default>false</default>
+                <label>Orlando Area</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pennsylvania - Other</fullName>
+                <default>false</default>
+                <label>Pennsylvania - Other</label>
+            </value>
+            <value>
+                <fullName>Pensacola Area</fullName>
+                <default>false</default>
+                <label>Pensacola Area</label>
+            </value>
+            <value>
+                <fullName>Pensacola Suburbs Alabama</fullName>
+                <default>false</default>
+                <label>Pensacola Suburbs Alabama</label>
+            </value>
+            <value>
+                <fullName>Philadelphia Area</fullName>
+                <default>false</default>
+                <label>Philadelphia Area</label>
+            </value>
+            <value>
+                <fullName>Phoenix Area</fullName>
+                <default>false</default>
+                <label>Phoenix Area</label>
+            </value>
+            <value>
+                <fullName>Pittsburgh Area</fullName>
+                <default>false</default>
+                <label>Pittsburgh Area</label>
+            </value>
+            <value>
+                <fullName>Portland Area</fullName>
+                <default>false</default>
+                <label>Portland Area</label>
+            </value>
+            <value>
+                <fullName>Portland Suburbs Washington</fullName>
+                <default>false</default>
+                <label>Portland Suburbs Washington</label>
+            </value>
+            <value>
+                <fullName>Providence Area</fullName>
+                <default>false</default>
+                <label>Providence Area</label>
+            </value>
+            <value>
+                <fullName>Puerto Rico - Other</fullName>
+                <default>false</default>
+                <label>Puerto Rico - Other</label>
+            </value>
+            <value>
+                <fullName>Raleigh Area</fullName>
+                <default>false</default>
+                <label>Raleigh Area</label>
+            </value>
+            <value>
+                <fullName>Rhode Island - Other</fullName>
+                <default>false</default>
+                <label>Rhode Island - Other</label>
+            </value>
+            <value>
+                <fullName>Richmond Area</fullName>
+                <default>false</default>
+                <label>Richmond Area</label>
+            </value>
+            <value>
+                <fullName>Sacramento Area</fullName>
+                <default>false</default>
+                <label>Sacramento Area</label>
+            </value>
+            <value>
+                <fullName>San Antonio Area</fullName>
+                <default>false</default>
+                <label>San Antonio Area</label>
+            </value>
+            <value>
+                <fullName>San Francisco Area</fullName>
+                <default>false</default>
+                <label>San Francisco Area</label>
+            </value>
+            <value>
+                <fullName>Scranton Area</fullName>
+                <default>false</default>
+                <label>Scranton Area</label>
+            </value>
+            <value>
+                <fullName>SE Chicago Suburbs Indiana</fullName>
+                <default>false</default>
+                <label>SE Chicago Suburbs Indiana</label>
+            </value>
+            <value>
+                <fullName>South Carolina - Other</fullName>
+                <default>false</default>
+                <label>South Carolina - Other</label>
+            </value>
+            <value>
+                <fullName>South Dakota - Other</fullName>
+                <default>false</default>
+                <label>South Dakota - Other</label>
+            </value>
+            <value>
+                <fullName>South Jersey Area</fullName>
+                <default>false</default>
+                <label>South Jersey Area</label>
+            </value>
+            <value>
+                <fullName>St Louis Area MO</fullName>
+                <default>false</default>
+                <label>St Louis Area MO</label>
+            </value>
+            <value>
+                <fullName>St Louis Suburbs Illinois</fullName>
+                <default>false</default>
+                <label>St Louis Suburbs Illinois</label>
+            </value>
+            <value>
+                <fullName>Syracuse Area</fullName>
+                <default>false</default>
+                <label>Syracuse Area</label>
+            </value>
+            <value>
+                <fullName>Tacoma Area</fullName>
+                <default>false</default>
+                <label>Tacoma Area</label>
+            </value>
+            <value>
+                <fullName>Tampa Area</fullName>
+                <default>false</default>
+                <label>Tampa Area</label>
+            </value>
+            <value>
+                <fullName>Tennessee - Other</fullName>
+                <default>false</default>
+                <label>Tennessee - Other</label>
+            </value>
+            <value>
+                <fullName>Texas - Other</fullName>
+                <default>false</default>
+                <label>Texas - Other</label>
+            </value>
+            <value>
+                <fullName>Toledo Area OH</fullName>
+                <default>false</default>
+                <label>Toledo Area OH</label>
+            </value>
+            <value>
+                <fullName>Toledo Suburbs Indiana</fullName>
+                <default>false</default>
+                <label>Toledo Suburbs Indiana</label>
+            </value>
+            <value>
+                <fullName>Toledo Suburbs Michigan</fullName>
+                <default>false</default>
+                <label>Toledo Suburbs Michigan</label>
+            </value>
+            <value>
+                <fullName>Tulsa Area</fullName>
+                <default>false</default>
+                <label>Tulsa Area</label>
+            </value>
+            <value>
+                <fullName>Utah - Other</fullName>
+                <default>false</default>
+                <label>Utah - Other</label>
+            </value>
+            <value>
+                <fullName>Vemont - Other</fullName>
+                <default>false</default>
+                <label>Vemont - Other</label>
+            </value>
+            <value>
+                <fullName>Virginia - Other</fullName>
+                <default>false</default>
+                <label>Virginia - Other</label>
+            </value>
+            <value>
+                <fullName>Washington DC Area</fullName>
+                <default>false</default>
+                <label>Washington DC Area</label>
+            </value>
+            <value>
+                <fullName>Washington DC Suburbs Maryland</fullName>
+                <default>false</default>
+                <label>Washington DC Suburbs Maryland</label>
+            </value>
+            <value>
+                <fullName>Washington DC Suburbs Virginia</fullName>
+                <default>false</default>
+                <label>Washington DC Suburbs Virginia</label>
+            </value>
+            <value>
+                <fullName>Washington State - Other</fullName>
+                <default>false</default>
+                <label>Washington State - Other</label>
+            </value>
+            <value>
+                <fullName>West Virginia - Other</fullName>
+                <default>false</default>
+                <label>West Virginia - Other</label>
+            </value>
+            <value>
+                <fullName>White Plains Area</fullName>
+                <default>false</default>
+                <label>White Plains Area</label>
+            </value>
+            <value>
+                <fullName>Wilmington Area</fullName>
+                <default>false</default>
+                <label>Wilmington Area</label>
+            </value>
+            <value>
+                <fullName>Wilmington Suburbs Maryland</fullName>
+                <default>false</default>
+                <label>Wilmington Suburbs Maryland</label>
+            </value>
+            <value>
+                <fullName>Wilmington Suburbs Pennsylvania</fullName>
+                <default>false</default>
+                <label>Wilmington Suburbs Pennsylvania</label>
+            </value>
+            <value>
+                <fullName>Wisconsin - Other</fullName>
+                <default>false</default>
+                <label>Wisconsin - Other</label>
+            </value>
+            <value>
+                <fullName>Wyoming - Other</fullName>
+                <default>false</default>
+                <label>Wyoming - Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjusted_Gross_Yield_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND((Adjusted_Gross_Yield__c*100)&gt;=6.50,(Adjusted_Gross_Yield__c*100)&lt;=6.99),1.25,
+IF(AND((Adjusted_Gross_Yield__c*100)&gt;=7.00,(Adjusted_Gross_Yield__c*100)&lt;=7.49),1.88,
+IF((Adjusted_Gross_Yield__c*100)&lt;6.50,0.63,2.50)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Adjusted Gross Yield Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
